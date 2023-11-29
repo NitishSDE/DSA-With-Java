@@ -10,8 +10,6 @@ public class Main {
 
     public static void main(String[] args) {
         float a = 12f;
-        int b = a;
-
-
+        int b = a; // error: incompatible types: possible lossy conversion from float to int
     }
 }
